@@ -421,6 +421,21 @@ a.tosu {
     object-position: center right;
 }
 
+.profile-image-frame {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+}
+
 .announcement-box {
     padding: 15px;
     margin-bottom: 20px;

@@ -58,7 +58,9 @@ layout: default
                 {% for ta in site.data.people.teaching_assistants %}
                 <div class="image--cover-container">
                     {% if ta.profile_pic %}
-                    <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    <div class="profile-image-frame">
+                        <img src="{{ta.profile_pic | prepend: site.baseurl }}" alt="{{ ta.name }}"{% if ta.profile_position or ta.profile_scale %} style="{% if ta.profile_position %}object-position: {{ ta.profile_position }}; transform-origin: {{ ta.profile_position }};{% endif %}{% if ta.profile_scale %} transform: scale({{ ta.profile_scale }});{% endif %}"{% endif %}>
+                    </div>
                     {% else %}
                     <div class="image--cover profile-placeholder"><i class="fas fa-user"></i></div>
                     {% endif %}

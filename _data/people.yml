@@ -4,5 +4,13 @@ instructors:
 
 teaching_assistants:
   - name: "钟林峰"
+    profile_pic: /_images/pp/linfengzhong.jpg
+    profile_position: "50% 38%"
+    profile_scale: 1.55
   - name: "张坤"
+    profile_pic: /_images/pp/kunzhang.jpg
+    profile_position: "50% 32%"
   - name: "王翌鸣"
+    profile_pic: /_images/pp/yimingwang.jpg
+    profile_position: "27% 48%"
+    profile_scale: 1.55
