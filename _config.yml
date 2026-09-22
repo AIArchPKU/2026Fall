@@ -1,6 +1,6 @@
 # Site settings
-course_name: "Hardware Architecture for Intelligent Computing Systems"
-course_description: "本课程主要介绍智能硬件系统的设计理论、方法与关键技术，课程内容与具体安排将在开课前陆续更新。"
+course_name: "AI-Aided Digital System and Architecture Design"
+course_description: "本课程聚焦人工智能辅助的数字系统与体系结构设计，涵盖设计范式、AI 算法基础及面向 HDL 的智能化设计方法。"
 course_semester: "Fall 2026"
 course_email: "AIArchPKU@163.com"
 

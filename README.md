@@ -1,4 +1,4 @@
-# Hardware Architecture for Intelligent Computing Systems @PKU — Fall 2026
+# AI-Aided Digital System and Architecture Design @PKU — Fall 2026
 
 Course website for the Fall 2026 offering at Peking University.
 

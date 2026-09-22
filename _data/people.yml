@@ -1,3 +1,7 @@
-# Add the Fall 2026 teaching team here after it is confirmed.
-instructors: []
-teaching_assistants: []
+instructors:
+  - name: "陶耀宇"
+
+teaching_assistants:
+  - name: "钟林峰"
+  - name: "张坤"
+  - name: "王翌鸣"
