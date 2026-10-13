@@ -43,6 +43,7 @@ module double_buffer_ctrl_tb;
     reg overlap_seen;
     reg prev_load_req;
     reg prev_compute_req;
+    reg job_accepted;
 
     // Model two independent engines. Responses are never in the request cycle.
     always @(negedge clk) begin
@@ -76,6 +77,7 @@ module double_buffer_ctrl_tb;
             overlap_seen = 1'b0;
             prev_load_req = 1'b0;
             prev_compute_req = 1'b0;
+            job_accepted = 1'b0;
         end else begin
             if (load_done) begin
                 if (!load_active) $fatal(1, "load_done without a load request");
@@ -87,6 +89,8 @@ module double_buffer_ctrl_tb;
                 compute_active = 1'b0;
                 completed = completed + 1;
             end
+            if (job_accepted && completed < 3 && busy !== 1'b1)
+                $fatal(1, "busy dropped before the job finished");
 
             if (load_req !== 1'b0 && load_req !== 1'b1)
                 $fatal(1, "load_req is X/Z");
@@ -137,7 +141,10 @@ module double_buffer_ctrl_tb;
                     $fatal(1, "done asserted before all three tiles completed");
                 done_count = done_count + 1;
                 if (done_count != 1) $fatal(1, "done must be a single pulse");
+                job_accepted = 1'b0;
             end
+            if (!job_accepted && start && busy === 1'b0)
+                job_accepted = 1'b1;
             prev_load_req = load_req;
             prev_compute_req = compute_req;
         end
