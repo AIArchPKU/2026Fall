@@ -30,4 +30,4 @@ permalink: /project/
 - [Fast Algorithms for Convolutional Neural Networks](https://arxiv.org/abs/1509.09308)
 - [Cooley–Tukey FFT algorithm - Wikipedia](https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm)
 
-Lab 1 自 **2026 年 10 月 13 日**起，为期 4 周，正常截止日期为 **2026 年 11 月 10 日（星期二）**；另有 7 个 late days，最晚提交日期为 **2026 年 11 月 17 日（星期二）**。具体截止时刻、late day 使用规则及提交方式以课程通知为准。
+Lab 1 自 **2026 年 10 月 13 日**起，为期 4 周，正常截止日期为 **2026 年 11 月 10 日（星期二）**；另有 7 个 late days，最晚提交日期为 **2026 年 11 月 17 日（星期二）**。具体截止时刻及 late day 使用规则以课程通知为准；提交方式见 Lab 1 作业说明。
