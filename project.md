@@ -18,7 +18,7 @@ permalink: /project/
 
 - 用 Verilog 编写一个基本的 1D Winograd 计算模块；
 - 编写一个 CORDIC 计算单元，用于计算 cos 和 sin 函数；
-- 设计并实现一个多阶段 AI 加速器任务控制器（复杂 FSM），自行定义状态数量与状态转移函数；
+- 设计一个处理 3 个数据块的双缓冲加载与计算控制器，自行定义 FSM 状态与转移逻辑；
 - Bonus（可选）：利用 CORDIC 计算单元实现一个基本的 FFT 模块；
 - Bonus（可选）：实现一个 2D Winograd 卷积模块。
 
