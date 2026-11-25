@@ -44,4 +44,9 @@ Lab 1 自 **2026 年 10 月 13 日**起，为期 4 周，正常截止日期为 *
 
 实验文件包包含 `lab2_1/` 和 `lab2_2/`，各目录中的 `README.md`、`DSE_AREA.md` 分别说明实现要求和设计空间探索方法。
 
+参考资料：
+
+- [MIPS Instruction Formats]({{ site.baseurl }}/project/lab2_refs/Instruction_Formats.pdf)
+- [Eyeriss]({{ site.baseurl }}/project/lab2_refs/Eyeriss.pdf)
+
 Lab 2 自 **2026 年 11 月 26 日**起，为期 4 周，截止日期为 **2026 年 12 月 24 日**。**所有 Lab 合计共享 7 个 late days，Lab 2 只能使用 Lab 1 后剩余的天数。** 若 Lab 1 已使用 N 天，则 Lab 2 最多可用 7 − N 天；若尚未使用，最晚可延至 **2026 年 12 月 31 日**。具体截止时刻以课程通知为准；由各组组长将实验报告和源码、结果文件压缩包上传至**教学网**，提交文件要求见作业说明。
